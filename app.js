@@ -1,4 +1,6 @@
-window.onload = function() {
+
+
+/*window.onload = function() {
     var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
 
@@ -33,7 +35,12 @@ window.onload = function() {
                 "<p>No hay laboratoria en concepción</p>"
             "</div>";
         }
-    } else {
+    } else 
+    {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
+*/
+var respuestas =
+if (pregunta-1() =="si"){
+    document.getElementById("respuestas").innerText = "Yujuu!! Correcto";
 }
