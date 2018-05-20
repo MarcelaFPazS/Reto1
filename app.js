@@ -50,12 +50,11 @@
      p.innerHTML = "Comencemos " + user;
  }
 
- 
- {
-    var user = document.getElementById("name").value;
-    var p1 = document.getElementById("welcomeMsje");
-    p.innerHTML = "Muy bien sigue asi " + user;
+document.getElementById("question-1").addEventListener("click",myFunction);
 
- }
+function myFunction(){
+    document.getElementById("question-1").innerHTML ="correcta";
+    
+}
  
 
