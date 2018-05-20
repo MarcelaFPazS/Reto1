@@ -10,12 +10,32 @@
 <body>
     <h1> Laboratoria Trivia</h1>
     <p>Responde, aprende y diviertete</p>
+
+    <div id= "names">
+        <input id= "name" type = "name" placeholder=" Introduce tu Nombre AQUI ">
+        <button id= "send" onclick= "myFunction()">Enviar</button>
+        <p id = "welcomeMsje"></p>
+
+
+    </div>
+
+
+    <div>
+        <p1>"¿Laboratoria capacita solo a mujeres?"</p1> 
+        <button id= "question-1" onclick="myFunction()"> Si</button>
+        <button id= "question-1" onclick="myFunction()"> NO</button>
+    </div>
     <div>
         <span id="pregunta-1"> ¿Es laboratoria una ONG? </span>
-        <button onclick="correcta">"Si"</button>
-        <button onclick="incorrecta">"no"</button>
-    </div>
-    
+        <input id= "name" type = "name" placeholder=" SI/NO ">
+        <button id= "send" onclick= "myFunction()">Enviar</button>
+        <p1 id = "welcomeMsje"></p1>
+
+        <button id= "send" onclick= "incorrecta()">Enviar</button>
+
+
+        
+</body>
    <!-- <div id="upperBar">
         <span id="nameLabel">Nombre : </span>
         <span id="name"></span>
@@ -38,6 +58,6 @@
         <p id="warningMessage"></p>
     </div>-->
     <script src="app.js"></script> 
-</body>
+
 
 </html>

@@ -40,7 +40,22 @@
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 */
-var respuestas =
-if (pregunta-1() =="si"){
-    document.getElementById("respuestas").innerText = "Yujuu!! Correcto";
-}
+ 
+
+ //Creacion del nombre en HTML 
+
+ function myFunction (){
+     var user = document.getElementById("name").value;
+     var p = document.getElementById("welcomeMsje");
+     p.innerHTML = "Comencemos " + user;
+ }
+
+ 
+ {
+    var user = document.getElementById("name").value;
+    var p1 = document.getElementById("welcomeMsje");
+    p.innerHTML = "Muy bien sigue asi " + user;
+
+ }
+ 
+
