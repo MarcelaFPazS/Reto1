@@ -10,31 +10,34 @@
 <body>
     <h1> Laboratoria Trivia</h1>
     <p>Responde, aprende y diviertete</p>
+    
 
     <div id= "names">
-        <input id= "name" type = "name" placeholder=" Introduce tu Nombre AQUI ">
+        <input id= "name" type = "name" placeholder="Tu Nombre AQUI">
         <button id= "send" onclick= "myFunction()">Enviar</button>
         <p id = "welcomeMsje"></p>
 
 
     </div>
+ <div>
+        <nombre = input("Dígame su nombre: ")></nombre>
+        <apellido = input(f"Dígame su apellido, {nombre}: ")></apellido>
+        <print(f"Me alegro de conocerle, {nombre} {apellido}.")></print>
+ </div>
 
-
+ <div>
+        <p id="para">Cualquier texto acá</p>
+        <button onclick="changeColor('blue');">Azul</button>
+        <button onclick="changeColor('red');">Rojo</button>
+ </div>
     <div>
         <p1>"¿Laboratoria capacita solo a mujeres?"</p1> 
         <button id= "question-1" onclick="myFunction()"> Si</button>
-        <button id= "question-1" onclick="myFunction()"> NO</button>
+        <button id= "question-1a" onclick="myFunction()"> NO</button>
 
         <script src="apps.js"></script>
     </div>
-    <div>
-        <span id="pregunta-1"> ¿Es laboratoria una ONG? </span>
-        <input id= "name" type = "name" placeholder=" SI/NO ">
-        <button id= "send" onclick= "myFunction()">Enviar</button>
-        <p1 id = "welcomeMsje"></p1>
-
-        <button id= "send" onclick= "incorrecta()">Enviar</button>
-
+   
 
         
 </body>

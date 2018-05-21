@@ -47,14 +47,11 @@
  function myFunction (){
      var user = document.getElementById("name").value;
      var p = document.getElementById("welcomeMsje");
-     p.innerHTML = "Comencemos " + user;
- }
-
-document.getElementById("question-1").addEventListener("click",myFunction);
-
-function myFunction(){
-    document.getElementById("question-1").innerHTML ="correcta";
-    
+     p.innerHTML =   user + " cuando tú respuesta esté correcta, se verá en color verde, y cuando sea incorrecta se verá en color naranjo";
 }
- 
 
+//Respuesta pregunta 1 Alternativa si
+function changeColor(newColor) {
+    var elem = document.getElementById('para');
+    elem.style.color = newColor ;
+}
